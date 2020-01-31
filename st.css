@@ -12,6 +12,7 @@
 			div.title{/*divかつtitleクラスを持つ要素に適用される*/
 				text-align: center;/*中央揃え*/
 				font-size: calc(5vw + 20px);
+				padding: 10px 20px 30px;
 				font-family: Comic Sans MS;
 				color: #fff;
 				background-image:url("kitune.PNG");
