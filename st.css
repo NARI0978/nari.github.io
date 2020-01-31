@@ -1,6 +1,6 @@
                         body{
-				background-color: #696969;/*背景色rgb=2,2,2*/
-				color: #f0f8ff;/*文字色*/
+				background-color: #202020;/*背景色rgb=2,2,2*/
+				color: #dfdfdf;/*文字色*/
 				font-family: menlo;/*個人的に好きなプログラムが見やいフォント*/
 				margin: 0;/*外の隙間無くす*/
 				overflow-x: hidden;/*スクロール時のずれ防止(はみ出したやつが消える)*/
