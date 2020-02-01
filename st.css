@@ -29,7 +29,9 @@
 				font-family: HiraMinPro-W6;
 			}
 			a:link, a:visited{
-				color: #aaa;
-				
-			}		
+				color: #aaa;	
+			}
+			a:hover, a:active{
+				color: #252525;
+			}
 
