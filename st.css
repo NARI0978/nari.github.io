@@ -28,7 +28,7 @@
 				font-size: 20px;
 				font-family: HiraMinPro-W6;
 			}
-			li{
+			a:link, a:visited{
 				color: #aaa;
 				
 			}		
