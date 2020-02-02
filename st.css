@@ -36,3 +36,7 @@
 			a:hover, a:active{
 				color: #666666;
 			}
+			.twitter-timeline{
+				display: flex
+			}
+
