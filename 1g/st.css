@@ -37,6 +37,15 @@
 			div.a,div.b,div.c,div.d,div.e{
 				padding: 30px;
 			}
+			div.a,div.c{
+				background-color: #404040;
+				
+			}
+			div.f{
+				font-size: 40px;
+				text-align:center;
+				
+			}
 			
 			a:link, a:visited{
 				color: #ffffff;
