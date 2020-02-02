@@ -1,9 +1,10 @@
-                        body{
+			body{
 				background-color: #202020;/*背景色rgb=2,2,2*/
 				color: #dfdfdf;/*文字色*/
 				font-family: Century Gothic;/*個人的に好きなプログラムが見やいフォント*/
 				margin: 0;/*外の隙間無くす*/
 				overflow-x: hidden;/*スクロール時のずれ防止(はみ出したやつが消える)*/
+				width: 100%;
 			}
 			div{/*div全てに適用*/
 				margin:0;/*隙間無くす*/
@@ -22,7 +23,6 @@
 			.zabton{/*zabtonクラスを持つ要素に適用*/
 				background-color: #2c2c2c;
 				width: 100%;
-				padding: 30px;
 				display: flex;
 				justify-content: space-around;
 				flex-wrap: wrap;
