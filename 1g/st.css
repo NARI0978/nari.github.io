@@ -34,8 +34,8 @@
 				font-size: 20px;
 				font-family: HiraMinPro-W6;
 			}
-			div.a,div.b,div.c,div.d,div.e{
-				padding: 30px;
+			div.a,div.b,div.c,div.d{
+				padding: 35px;
 			}
 			div.a,div.c{
 				background-color: #404040;
@@ -44,6 +44,9 @@
 			div.f{
 				font-size: 40px;
 				text-align:center;
+			div.e{
+				font-size: 35px;
+			}
 				
 			}
 			
