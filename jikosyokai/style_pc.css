@@ -1,0 +1,63 @@
+			@media print, screen and (min-width: 640px) {
+				body{
+				background-color: #202020;/*背景色rgb=2,2,2*/
+				color: #dfdfdf;/*文字色*/
+				font-family: MS PGothic;/*個人的に好きなプログラムが見やいフォント*/
+				margin: 0;/*外の隙間無くす*/
+				overflow-x: hidden;/*スクロール時のずれ防止(はみ出したやつが消える)*/
+				width: 100%;
+				
+			}
+			div{/*div全てに適用*/
+				margin:0;/*隙間無くす*/
+				overflow: hidden;
+			}
+			div.title{/*divかつtitleクラスを持つ要素に適用される*/
+				text-align: center;/*中央揃え*/
+				font-size: calc(5vw + 20px);
+				padding: 40px;
+				font-family: HiraKakuPro-W6;
+				color: #e0e0e0;
+				background-image:url("aa.PNG");
+				background-size: cover;/*サイズ揃えるやつ*/
+				background-position: center;
+			}
+			.zabton{/*zabtonクラスを持つ要素に適用*/
+				background-color: ;
+				width: 100%;
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				align-items: flex-start;
+			}
+			.s{
+				text-align:center;
+				font-size: 20px;
+				font-family: HiraMinPro-W6;
+			}
+			div.a, div.b, div.c, div.d, div.e{
+				padding: 40px;
+			}
+			div.a,div.c{
+				background-color: #404040;
+				padding: 30px;
+				
+			}
+			div.f{
+				font-size: 40px;
+				text-align:center;
+			}
+			p{
+				font-size: 21px;
+			}
+			h1{
+				text-align:center;
+			}
+			
+			a:link, a:visited{
+				color: #ffffff;
+			}
+			a:hover, a:active{
+				color: #666666;
+			}
+			}
