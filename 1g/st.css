@@ -1,7 +1,7 @@
 			body{
 				background-color: #202020;/*背景色rgb=2,2,2*/
 				color: #dfdfdf;/*文字色*/
-				font-family: HiraKakuProN-W6;/*個人的に好きなプログラムが見やいフォント*/
+				font-family: HiraKakuPro-W6;/*個人的に好きなプログラムが見やいフォント*/
 				margin: 0;/*外の隙間無くす*/
 				overflow-x: hidden;/*スクロール時のずれ防止(はみ出したやつが消える)*/
 				width: 100%;
