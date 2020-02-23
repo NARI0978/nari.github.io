@@ -1,7 +1,7 @@
 			body{
 				background-color: #202020;/*背景色rgb=2,2,2*/
 				color: #dfdfdf;/*文字色*/
-				font-family: HiraKakuPro-W6;/*個人的に好きなプログラムが見やいフォント*/
+				font-family: arial;/*個人的に好きなプログラムが見やいフォント*/
 				margin: 0;/*外の隙間無くす*/
 				overflow-x: hidden;/*スクロール時のずれ防止(はみ出したやつが消える)*/
 				width: 100%;
@@ -30,8 +30,15 @@
 			}
 			.s{
 				text-align:center;
+				font-size: 24px;
+				font-family: Microsoft Sans Serif;
+				padding: 30px
+			}
+			.c{
+				text-align:center;
 				font-size: 20px;
 				font-family: HiraMinPro-W6;
+				padding: 20px
 			}
 			a:link, a:visited{
 				color: #ffffff;
