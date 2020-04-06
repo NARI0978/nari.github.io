@@ -109,12 +109,6 @@
   text-align: center;
   color: #3f98ef;
 }
-			
-				
-			
-			a:link, a:visited{
-				color: #ffffff;
-			}
-			a:hover, a:active{
-				color: #666666;
+			a{
+				text-decoration: none;
 			}
