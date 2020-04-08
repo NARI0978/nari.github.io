@@ -45,9 +45,15 @@
 				text-align:center;
 				font-size: 25px;
 				font-family: HiraKakuPro-W6;
-				
 			}
-				
+				.g{
+				text-align:center;
+				font-size: 15px;
+				font-family: HiraMinPro-W6;
+				padding: 20px;
+				background-color: #2c2c2c;
+				color: #dfdfdf;
+			}
 			div.a,div.b,div.c,div.d{
 				padding: 35px;
 			}
@@ -64,6 +70,13 @@
 			}
 			div.j{
 				padding: 35px;
+			}
+			a:link, a:visited{
+				color: #ffffff;
+				text-decoration: none;
+			}
+			a:hover, a:active{
+				color: #666666;
 			}
 			#page_top{
   			width: 90px;
