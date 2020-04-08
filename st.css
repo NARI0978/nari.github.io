@@ -44,12 +44,10 @@
 			}
 			a:link, a:visited{
 				color: #ffffff;
+				text-decoration: none;
 			}
 			a:hover, a:active{
 				color: #666666;
-			}
-			a {
-				text-decoration: none;
 			}
 			h1{
 				padding: 10px
