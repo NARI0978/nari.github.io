@@ -6,7 +6,6 @@
 				margin: 0;/*外の隙間無くす*/
 				overflow-x: hidden;/*スクロール時のずれ防止(はみ出したやつが消える)*/
 				width: 100%;
-				
 			}
 			div{/*div全てに適用*/
 				margin:0;/*隙間無くす*/
