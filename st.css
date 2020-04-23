@@ -26,21 +26,23 @@
 				justify-content: space-around;
 				flex-wrap: wrap;
 				align-items: flex-start;
+				box-shadow: 0 0 15px gray;
+
 			}
 			.s{
 				text-align:center;
 				font-size: 24px;
 				font-family: Microsoft Sans Serif;
-				padding: 20px
+				padding: 20px;
 			}
 			.c{
 				text-align:center;
 				font-size: 20px;
 				font-family: HiraMinPro-W6;
-				padding: 20px
-			}
+				padding: 20px;
+				}
 			.d{
-				padding: 20px
+				padding: 20px;
 			}
 			a:link, a:visited{
 				color: #ffffff;
@@ -50,5 +52,5 @@
 				color: #666666;
 			}
 			h1{
-				padding: 10px
+				padding: 10px;
 			}
