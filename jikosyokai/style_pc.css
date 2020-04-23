@@ -48,6 +48,8 @@
 				padding: 20px;
 				background-color: #2c2c2c;
 				color: #dfdfdf;
+				box-shadow: 0 0 15px;
+
 			}
 			div.a, div.b, div.c, div.d, div.e{
 				padding: 40px;
