@@ -20,7 +20,7 @@
 				background-size: cover;/*サイズ揃えるやつ*/
 				background-position: center;
 			}
-			.b{
+			.b,.c{
 				text-align:center;
 				font-size: 30px;
 				font-family: HiraKakuPro-W6;
@@ -40,6 +40,9 @@
 			}
 			h1,p{
 				text-align:center;
+			}
+			.NCH{
+				box-shadow: inset 0 0 15px gray;
 			}
 			a:link, a:visited{
 				color: #ffffff;
