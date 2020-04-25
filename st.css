@@ -26,7 +26,7 @@
 				justify-content: space-around;
 				flex-wrap: wrap;
 				align-items: flex-start;
-				box-shadow: 0 0 15px gray;
+				box-shadow: inset 0 0 10px gray;
 
 			}
 			.s{
