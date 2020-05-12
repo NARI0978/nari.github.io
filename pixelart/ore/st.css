@@ -14,9 +14,9 @@
 			div.title{/*divかつtitleクラスを持つ要素に適用される*/
 				font-size: calc(5vw + 20px);
 				padding: 25px;
-				font-family: Comic Sans MS;
+				font-family: HiraKakuPro-W6;
 				color: #1e90ff;
-				background-image:url("a.PNG");
+				background-image:url("hed.JPG");
 				background-size: cover;/*サイズ揃えるやつ*/
 				background-position: center;
 			}
