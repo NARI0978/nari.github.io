@@ -27,6 +27,7 @@
 				justify-content: space-around;
 				flex-wrap: wrap;
 				align-items: flex-start;
+				padding: 20px;
 			}
 			.s{
 				text-align:center;
