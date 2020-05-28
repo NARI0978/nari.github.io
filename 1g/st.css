@@ -89,4 +89,19 @@
 			transform: translateY(4px);/*下に動く*/
 			border-bottom: none;/*線を消す*/
 		}
+		.k_btn{
+	  display: inline-block;
+	  padding: 0.5em 1em;
+	  text-decoration: none;
+	  background: #FF3333;/*ボタン色*/
+	  color: #FFF;
+	  border-bottom: solid 4px #CC3333;
+	  border-radius: 3px;
+	}
+	.k_btn:active {
+	  /*ボタンを押したとき*/
+	  -webkit-transform: translateY(4px);
+	  transform: translateY(4px);/*下に動く*/
+	  border-bottom: none;/*線を消す*/
+	}
 
