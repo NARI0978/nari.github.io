@@ -16,7 +16,7 @@
 			div.title{/*divかつtitleクラスを持つ要素に適用される*/
 				font-size: calc(5vw + 20px);
 				padding: 40px;
-				background-image:url("aa.webp");
+				background-image:url("aa.png");
 				background-size: cover;/*サイズ揃えるやつ*/
 				background-position: center;
 			}
