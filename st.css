@@ -15,7 +15,7 @@
 				font-size: calc(5vw + 20px);
 				padding: 40px;
 				font-family: Comic Sans MS;
-				background-image:url("1g/kitune.webp");
+				background-image:url("1g/kitune.png");
 				background-size: cover;/*サイズ揃えるやつ*/
 				background-position: center;
 			}
