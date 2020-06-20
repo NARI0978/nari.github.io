@@ -46,3 +46,6 @@
 			a:hover, a:active{
 				color: #666666;
 			}
+			.link{
+				text-align: left;
+			}
