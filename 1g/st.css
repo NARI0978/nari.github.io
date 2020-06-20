@@ -113,7 +113,7 @@
 	}
 	.cp_cssslider {
 	width: 80%;
-	padding-top: 50%; /* 画像の高さ */
+	padding-top: 45%; /* 画像の高さ */
 	position: relative;
 	margin: 2em auto;
 	text-align: center;
