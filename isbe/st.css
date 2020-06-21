@@ -16,7 +16,7 @@
 				padding: 40px;
 				font-family: Comic Sans MS;
 				color: #e0e0e0;
-				background-image:url("aa.png");
+				background-image:url("top.PNG");
 				background-size: cover;/*サイズ揃えるやつ*/
 				background-position: center;
 			}
@@ -108,4 +108,54 @@
 	-webkit-transform: translateY(4px);
 	transform: translateY(4px);/*下に動く*/
 	border-bottom: none;/*線を消す*/
+	}
+	*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	.cp_cssslider {
+	width: 80%;
+	padding-top: 45%; /* 画像の高さ */
+	position: relative;
+	margin: 2em auto;
+	text-align: center;
+	}
+	.cp_cssslider > img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all 0.5s;
+	border-radius: 3px;
+	box-shadow:0px 0px 5px 0px rgba(0,0,0,0.3);
+	}
+	.cp_cssslider input[name='cp_switch'] {
+	display: none;
+	}
+	/* サムネイル */
+	.cp_cssslider label {
+	margin: 15px 5px 0 5px;
+	border: 2px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	transition: all 0.5s ease;
+	opacity: 0.6;
+	border-radius: 3px;
+	}
+	.cp_cssslider label:hover {
+	opacity: 0.9;
+	}
+	.cp_cssslider label img {
+	display: block;
+	width: 40px;
+	border-radius: 2px;
+	}
+	.cp_cssslider input[name='cp_switch']:checked + label {
+	border: 2px solid #FF7043;
+	opacity: 1;
+	}
+	.cp_cssslider input[name='cp_switch'] ~ img {
+	opacity: 0;
+	}
+	.cp_cssslider input[name='cp_switch']:checked + label + img {
+	opacity: 1;
 	}
