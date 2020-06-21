@@ -59,7 +59,7 @@
 			}
 			.all{
 				box-shadow: inset 0 0 15px gray;
-				padding: 28px;
+				padding: 20px;
 			}
 			div.f{
 				font-size: 40px;
@@ -109,12 +109,13 @@
 	transform: translateY(4px);/*下に動く*/
 	border-bottom: none;/*線を消す*/
 	}
+
 	*, *:before, *:after {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	}
 	.cp_cssslider {
-	width: 80%;
+	width: 90%;
 	padding-top: 45%; /* 画像の高さ */
 	position: relative;
 	margin: 2em auto;
