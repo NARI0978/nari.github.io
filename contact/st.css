@@ -1,7 +1,7 @@
 				body{
 				background-color: #202020;/*背景色rgb=2,2,2*/
 				color: #dfdfdf;/*文字色*/
-				font-family: HiraKakuPro-W6;/*個人的に好きなプログラムが見やいフォント*/
+				font-family:  "MS PGothic", "Osaka", Arial, sans-serif;/*個人的に好きなプログラムが見やいフォント*/
 				margin: 0;/*外の隙間無くす*/
 				overflow-x: hidden;/*スクロール時のずれ防止(はみ出したやつが消える)*/
 				width: 100%;
@@ -20,12 +20,15 @@
 				background-size: cover;/*サイズ揃えるやつ*/
 				background-position: center;
 			}
-			p{
+			.g{
+				text-align: center;
+				font-size: 22px;
+				padding: 15px;
+				}
+			.boxsh{
+				box-shadow: inset 0 0 15px gray;
 				font-size: 25px;
 				padding: 15px;
-			}
-			.NCH{
-				box-shadow: inset 0 0 15px gray;
 			}
 			a:link, a:visited{
 				color: #ffffff;
@@ -34,4 +37,3 @@
 			a:hover, a:active{
 				color: #666666;
 			}
-
