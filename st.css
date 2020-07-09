@@ -9,7 +9,7 @@
 	.title{
 		text-align: center;
 		font-size: 45px;
-		padding: 60px;
+		padding: 45px;
 		font-family: Comic Sans MS;
 		background-image:url("photo/mainhead6.png");
 		background-size: cover;
@@ -37,7 +37,7 @@
 	}
 	.block4{
 		padding: 15px;
-		font-size: 30px;
+		font-size: 20px;
 		text-align: center;
 		color: #e6e6e6;
 		background-color: #252525;
