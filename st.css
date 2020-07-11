@@ -12,7 +12,7 @@
 		padding: 45px;
 		font-family: Comic Sans MS; /*"photo/mainhead.jpg"*/
 		background: linear-gradient( to top, #20ffff55, #0c6cff55,#20ffff55),
-  url("photo/mainhead.jpg");
+  url("photo/toppage/mainhead.jpg");
 		background-size: cover;
 		background-position: center;
 	}
