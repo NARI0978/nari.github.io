@@ -15,7 +15,8 @@
 				font-size: calc(5vw + 20px);
 				padding: 40px;
 				font-family: HiraKakuPro-W6;
-				background-image:url("hed.JPG");
+				background: linear-gradient( to top, #ffffff66, #0c6cff77,#ffffff66),
+		  url("hed.JPG");
 				background-size: cover;/*サイズ揃えるやつ*/
 				background-position: center;
 			}
@@ -46,4 +47,3 @@
 			a:hover, a:active{
 				color: #666666;
 			}
-			
