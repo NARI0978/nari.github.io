@@ -22,7 +22,7 @@
 		color: #e6e6e6;
 		background-color: #333333;
 	}
-	.block2{
+	.block2,.block3,.block4,.block5,.block6{
 		padding: 15px;
 		font-size: 33px;
 		text-align: center;
@@ -30,7 +30,7 @@
 		background-color: #252525;
 	}
 
-	.block5{
+	.block10{
 		padding: 15px;
 		font-size: 20px;
 		text-align: center;
