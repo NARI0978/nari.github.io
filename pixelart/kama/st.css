@@ -13,7 +13,7 @@
 		padding: 45px;
 		font-family: Comic Sans MS; /*"photo/mainhead.jpg"*/
 		background: /*linear-gradient( to top, #20ffff55, #0c6cff55,#20ffff55),*/
-  url("hed.JPG");
+  url("hed.PNG");
 		background-size: cover;
 		background-position: center;
 	}
@@ -38,13 +38,13 @@
 		color: #e6e6e6;
 		background-color: #252525;
 	}
-	.block4{
+	/*.block4{
 		padding: 15px;
 		font-size: 20px;
 		text-align: center;
 		color: #e6e6e6;
 		background-color: #252525;
-	}
+	}*/
 	.block5{
 		padding: 15px;
 		font-size: 20px;
