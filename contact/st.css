@@ -1,43 +1,141 @@
-				body{
-				background-color: #202020;/*背景色rgb=2,2,2*/
-				color: #dfdfdf;/*文字色*/
-				font-family:  "MS PGothic", "Osaka", Arial, sans-serif;/*個人的に好きなプログラムが見やいフォント*/
-				margin: 0;/*外の隙間無くす*/
-				overflow-x: hidden;/*スクロール時のずれ防止(はみ出したやつが消える)*/
-				width: 100%;
-				text-align:center;
-			}
-			div{/*div全てに適用*/
-				margin:0;/*隙間無くす*/
-				overflow: hidden;
-			}
-			div.title{/*divかつtitleクラスを持つ要素に適用される*/
-				text-shadow: 0px 0px 15px #fc0107;
-				font-size: calc(5vw + 20px);
-				padding: 25px;
-				font-family: Comic Sans MS;
-				color: #1e90ff;
-				background-image:url("a.png");
-				background-size: cover;/*サイズ揃えるやつ*/
-				background-position: center;
-			}
-			.a{
-				text-shadow: 0px 0px 15px #0000ff;
-			}
-			.g,.a{
-				text-align: center;
-				font-size: 20px;
-				padding: 15px;
-				}
-			.boxsh{
-				box-shadow: inset 0 0 15px gray;
-				font-size: 25px;
-				padding: 15px;
-			}
-			a:link, a:visited{
-				color: #ffffff;
-				text-decoration: none;
-			}
-			a:hover, a:active{
-				color: #666666;
-			}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+		background-color: #252525;
+	}
+	.title{
+		text-shadow: 0px 0px 15px #fc0107;
+		text-align: center;
+		font-size: 45px;
+		padding: 45px;
+		font-family: Comic Sans MS; /*"photo/mainhead.jpg"*/
+		background: /*linear-gradient( to top, #20ffff55, #0c6cff55,#20ffff55),*/
+  url("../photo/contact/mainhead.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	.block1{
+		text-shadow: 0px 0px 15px #fd8008;
+		padding: 15px;
+		font-size: 25px;
+		text-align: center;
+		color: #e6e6e6;
+		background-color: #333333;
+	}
+	.block2{
+		padding: 15px;
+		font-size: 30px;
+		text-align: center;
+		color: #e6e6e6;
+		background-color: #252525;
+	}
+	/*.block3{
+		padding: 15px;
+		text-align: center;
+		color: #e6e6e6;
+		background-color: #252525;
+	}
+	.block4{
+		padding: 15px;
+		font-size: 20px;
+		text-align: center;
+		color: #e6e6e6;
+		background-color: #252525;
+	}*/
+	.block5{
+		padding: 15px;
+		font-size: 20px;
+		text-align: center;
+		color: #e6e6e6;
+		background-color: #333333;
+	}
+	a:link{
+		color: #ffffff;
+		text-decoration: none;
+		}
+	a:visited{
+		color: #ffffff;
+		text-decoration: none;
+		}
+	a:hover{
+		color: #b3b3b3;
+		text-decoration: none;
+		}
+	a:active{
+		color: #191919;
+		text-decoration: none;
+	}
+	.space {
+  margin-bottom: 20px;
+}
+.spaces {
+margin-bottom: 15px;
+}
+.btnY{
+	font-size: 25px;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #FFF;
+	background-image: linear-gradient( 45deg, #fc0107, #ffffff);
+	transition: .2s;
+}
+.btnY:hover{
+	background-image: linear-gradient( 45deg, #dc0808, #cdd0cf);
+}
+.btnTN{
+	font-size: 25px;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #FFF;
+	background-image: linear-gradient( 45deg, #19beff, #e3e7e6);
+	transition: .2s;
+}
+.btnTN:hover{
+	background-image: linear-gradient( 45deg, #1e9bcd, #c9cdcc);
+}
+.btnI{
+	font-size: 25px;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #FFF;
+	background-image: linear-gradient( 30deg, #8000ff, #ffff0a , #fc0eb9);
+	transition: .2s;
+}
+.btnI:hover{
+	background-image: linear-gradient( 30deg, #6c00d8, #d9d908 , #d80c9e);
+}
+.btnR{
+	font-size: 25px;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #FFF;
+	background-image: linear-gradient( 30deg, #ff3338, #fd8008);
+	transition: .2s;
+}
+.btnR:hover{
+	background-image: linear-gradient( 30deg, #d82b2e, #d86c06);
+}
+.btnMA{
+	font-size: 25px;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #FFF;
+	background-image: linear-gradient( 30deg, #2fff1a, #96fc96);
+	transition: .2s;
+}
+.btnMA:hover{
+	background-image: linear-gradient( 30deg, #29da16, #81da81);
+}
