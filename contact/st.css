@@ -27,7 +27,7 @@
 	}
 	.block2{
 		padding: 15px;
-		font-size: 30px;
+		font-size: 20px;
 		text-align: center;
 		color: #e6e6e6;
 		background-color: #252525;
@@ -75,7 +75,7 @@
 margin-bottom: 15px;
 }
 .btnY{
-	font-size: 25px;
+	font-size: 20px;
 	display: inline-block;
 	padding: 10px 30px;
 	border-radius: 5px;
@@ -88,7 +88,7 @@ margin-bottom: 15px;
 	background-image: linear-gradient( 45deg, #dc0808, #cdd0cf);
 }
 .btnTN{
-	font-size: 25px;
+	font-size: 20px;
 	display: inline-block;
 	padding: 10px 30px;
 	border-radius: 5px;
@@ -114,7 +114,7 @@ margin-bottom: 15px;
 	background-image: linear-gradient( 30deg, #6c00d8, #d9d908 , #d80c9e);
 }
 .btnR{
-	font-size: 25px;
+	font-size: 20px;
 	display: inline-block;
 	padding: 10px 30px;
 	border-radius: 5px;
@@ -127,7 +127,7 @@ margin-bottom: 15px;
 	background-image: linear-gradient( 30deg, #d82b2e, #d86c06);
 }
 .btnMA{
-	font-size: 25px;
+	font-size: 20px;
 	display: inline-block;
 	padding: 10px 30px;
 	border-radius: 5px;
