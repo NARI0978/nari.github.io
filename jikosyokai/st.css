@@ -19,14 +19,14 @@
 	.block1{
 		text-shadow: 0px 0px 15px #ffff0a;
 		padding: 15px;
-		font-size: 25px;
+		font-size: 150%;
 		text-align: center;
 		color: #e6e6e6;
 		background-color: #333333;
 	}
-	.block2,.block3,.block4,.block5{
+	.block2,.block3,.block4,.block5,.block6{
 		padding: 15px;
-		font-size: 20px;
+		font-size: 110%;
 		text-align: center;
 		color: #e6e6e6;
 		background-color: #252525;
@@ -54,4 +54,28 @@
 	a:active{
 		color: #191919;
 		text-decoration: none;
+	}
+	.btn{
+		display: inline-block;
+  padding: 2px 4px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: linear-gradient( 45deg, #6795fd, #5bdeff);
+  transition: .2s;
+	}
+	.btn:hover{
+		background-image: linear-gradient( 45deg, #6795fd, #51d3f9);
+	}
+	.btns{
+		display: inline-block;
+  padding: 2px 4px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #FFF;
+  background-image: linear-gradient( 45deg, #fecc66, #fd8008);
+  transition: .2s;
+	}
+	.btns:hover{
+		background-image: linear-gradient( 45deg, #6795fd, #51d3f9);
 	}
