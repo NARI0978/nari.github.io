@@ -102,6 +102,8 @@ nav {
   transition: all .4s;
   z-index: 3;
   opacity: 0;
+  text-align: center;
+
 }
 .open nav {
   left: 0;
@@ -133,6 +135,7 @@ nav .inner ul li a:hover {
 }
 .inner p{
 color:#fffffe;
+font-size:25px;
 }
 @media screen and (max-width: 767px) {
   nav {
