@@ -70,6 +70,9 @@
 		color: #191919;
 		text-decoration: none;
 	}
+	.spaces {
+	margin-bottom: 15px;
+	}
 
 	.btn{
 		font-size: 25px;

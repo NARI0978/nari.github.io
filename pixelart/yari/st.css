@@ -54,6 +54,9 @@
 		color: #e6e6e6;
 		background-color: #333333;
 	}
+	.spaces {
+	margin-bottom: 15px;
+	}
 	a:link{
 		color: #ffffff;
 		text-decoration: none;
