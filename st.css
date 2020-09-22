@@ -27,10 +27,25 @@
 	}
 	.block2{
 		padding: 15px;
-		font-size: 40px;
+		font-size: 30px;
 		text-align: center;
 		color: #e6e6e6;
 		background-color: #252525;
+	}
+	.newstitle{
+		padding: 20px;
+		text-align: center;
+		font-size: 30px;
+		color:#e6e6e6;
+	}
+	.news{
+		font-size: 25px;
+		text-align: center;
+		overflow: scroll;
+		height: 6em;
+		color:#e6e6e6;
+		background-color: #181818;
+		border-radius: 15px;
 	}
 	.block3{
 		padding: 12px;
