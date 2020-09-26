@@ -32,20 +32,35 @@
 		color: #e6e6e6;
 		background-color: #252525;
 	}
-	.newstitle{
-		padding: 20px;
-		text-align: center;
-		font-size: 30px;
-		color:#e6e6e6;
-	}
 	.news{
-		font-size: 25px;
+		margin: 1em 1em;
+		background: #7f7f7f;
+		border-radius: 5px;
+	}
+	.news .newstitle{
+		font-size: 1.5em;
+		background: #4d4d4d;
+		padding: 2px;
+		text-align: center;
+		color: #FFF;
+		font-weight: bold;
+		border-radius: 5px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.scroll{
+		font-size: 20px;
 		text-align: center;
 		overflow: scroll;
-		height: 4.5em;
-		color:#e6e6e6;
-		background-color: #181818;
-		border-radius: 15px;
+		height: 5em;
+	}
+	.scroll p{
+		color: #FFF;
+		padding: 0 2px;
+	}
+	.scroll p a{
+		color: #000080;
+		text-decoration: underline;
 	}
 	.block3{
 		padding: 12px;
