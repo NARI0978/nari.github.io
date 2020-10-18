@@ -31,18 +31,18 @@
 	nav .inner ul li {
 	  position: relative;
 	  margin: 0;
-	  border-bottom: 1px solid #000; /*区切り線*/
+	  border-bottom: 1px solid #fff; /*区切り線*/
 	}
 	nav .inner ul li a {
 	  display: block;
 	  color: #fff;
-	  font-size: 16px;
-	  padding: 1em;
+	  font-size: 20px;
+	  padding: 1.5em;
 	  text-decoration: none;
 	  transition-duration: 0.4s;
 	}
 	nav .inner ul li a:hover {
-	  background: #808080;
+	  background: #80808099;
 	}
 	.inner p{
 	font-size: 25px;
@@ -118,7 +118,7 @@
 	  width: 100%;
 	  height: 100%;
 	  background: #000;
-	  opacity: .8;
+	  opacity: .9;
 	  z-index: 2;
 	  cursor: pointer;
 	}
