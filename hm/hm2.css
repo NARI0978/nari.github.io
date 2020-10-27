@@ -12,7 +12,7 @@
 	  overflow-x: hidden;
 	  overflow-y: auto;
 	  -webkit-overflow-scrolling: touch;
-	  transition: all 1.0s;
+	  transition: all .5s;
 	  z-index: 3;
 	  opacity: 0;
 	}
@@ -46,8 +46,8 @@
 	}
 	.inner p{
 	font-size: 25px;
-	text-shadow: 0px 0px 15px #20ffff;
-	color:#fffffe;
+	text-shadow: 0px 0px 15px #00fffd;
+	color:#ffffff;
 	padding:25px;
 	}
 	@media screen and (max-width: 767px) {
@@ -76,7 +76,7 @@
 	  left: 0;
 	  width: 30px;
 	  height: 2px;
-	  background-color: #fff; /*３本線いろ*/
+	  background-color: #000; /*３本線いろ*/
 	  border-radius: 4px;
 	  transition: all .4s;
 	}
