@@ -5,6 +5,7 @@
                 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 				<link rel="stylesheet" type="text/css" href="st.css">
 				<link rel="stylesheet" type="text/css" href="../hm/hm.css">
+				<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 				<link rel="shortcut icon" href="../photo/icon/syokai.jpg">
 				<title>自己紹介</title>
 	</head>
@@ -41,8 +42,19 @@
 			</p>
 		</div>
 		<div class="block2">
-
-		</div>
+<!--swiper-->
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide"><img src="../photo/1g/sl1.jpg" alt=""></div>
+<div class="swiper-slide"><img src="../photo/1g/sl2.jpg" alt=""></div>
+<div class="swiper-slide"><img src="../photo/1g/sl3.jpg" alt=""></div>
+</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+<!--END-->
+</div>
 		<div class="block3">
 
 		</div>
@@ -62,6 +74,28 @@
 			</p>
 		</div>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-		 <script type="text/javascript" src="../js/st.js"></script>
+		<script type="text/javascript" src="../js/st.js"></script>
+		<script src="https://unpkg.com/swiper@6.3.5/swiper-bundle.min.js"></script>
+		<script>
+		let mySwiper = new Swiper ('.swiper-container', {
+		 loop: true,
+		 slidesPerView:2,  //スライドを2つ（分）表示
+		 centeredSlides : true,  //アクティブなスライドを中央に表示
+		 effect: 'coverflow',  //スライドのエフェクトを coverflow に
+			 pagination: {
+				 el: '.swiper-pagination',
+				 type: 'bullets',
+				 clickable: true,
+			 },
+			 navigation: {
+				 nextEl: '.swiper-button-next',
+				 prevEl: '.swiper-button-prev',
+			 },
+			 autoplay: {
+				 delay: 3000,
+				 disableOnInteraction: true
+			 },
+			 });
+		 </script>
 	</body>
 </html>

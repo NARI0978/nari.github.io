@@ -27,6 +27,17 @@
 		color: #e6e6e6;
 		background-color: #333333;
 	}
+	.block2{
+		padding: 30px;
+		font-size: 20px;
+		text-align: center;
+		color: #e6e6e6;
+		background-color: #252525;
+	}
+	:root {
+  --swiper-navigation-color: #ffffff;
+  --swiper-pagination-color: #ffffff;
+	}	
 
 	.copyright{
 		padding: 15px;
