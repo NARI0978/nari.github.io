@@ -29,7 +29,7 @@
 	}
 	.block2{
 		padding: 10px;
-		font-size: 20px;
+		font-size: 18px;
 		text-align: center;
 		color: #e6e6e6;
 		background-color: #252525;
@@ -38,10 +38,33 @@
   --swiper-navigation-color: #ffffff;
   --swiper-pagination-color: #ffffff;
 	}
-
 	.swiper-container{
 		width:80%;
 		height:auto;
+	}
+	h2{
+		text-align: center;
+	}
+	.block3{
+		padding: 10px;
+		font-size: 18px;
+		text-align: center;
+		color: #e6e6e6;
+		background-color: #252525;
+	}
+	.block4{
+		padding: 10px;
+		font-size: 20px;
+		text-align: center;
+		color: #e6e6e6;
+		background-color: #252525;
+	}
+	.block5{
+		padding: 10px;
+		font-size: 20px;
+		text-align: center;
+		color: #e6e6e6;
+		background-color: #252525;
 	}
 
 	.copyright{
@@ -69,7 +92,7 @@
 	}
 	.btn{
 		display: inline-block;
-  padding: 2px 4px;
+  padding: 6px 4px;
   border-radius: 5px;
   text-decoration: none;
   color: #FFF;
