@@ -7,7 +7,7 @@
 		background-color: #252525;
 	}
 	img{
-		max-width: 700px;
+		max-width: 500px;
 	}
 	.title{
 		text-shadow: 0px 0px 15px #66ff66;
@@ -22,20 +22,13 @@
 	.block1{
 		text-shadow: 0px 0px 15px #ffff0a;
 		padding: 15px;
-		font-size: 150%;
+		font-size: 25px;
 		text-align: center;
 		color: #e6e6e6;
 		background-color: #333333;
 	}
-	.block2,.block3,.block4,.block5,.block6{
-		padding: 15px;
-		font-size: 110%;
-		text-align: center;
-		color: #e6e6e6;
-		background-color: #252525;
-	}
 
-	.block10{
+	.copyright{
 		padding: 15px;
 		font-size: 20px;
 		text-align: center;
