@@ -7,7 +7,7 @@
 		background-color: #252525;
 	}
 	img{
-		max-width: 500px;
+		max-width: 100%;
 	}
 	.title{
 		text-shadow: 0px 0px 15px #66ff66;
@@ -37,7 +37,7 @@
 	:root {
   --swiper-navigation-color: #ffffff;
   --swiper-pagination-color: #ffffff;
-	}	
+	}
 
 	.copyright{
 		padding: 15px;
