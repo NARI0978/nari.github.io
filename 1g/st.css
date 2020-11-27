@@ -18,6 +18,10 @@
 		background-size: cover;
 		background-position: center;
 	}
+	.blocktitle{
+		font-size: 28px;
+		padding: 5px;
+	}
 	.block1{
 		text-shadow: 0px 0px 15px #0f80ff;
 		padding: 10px;
