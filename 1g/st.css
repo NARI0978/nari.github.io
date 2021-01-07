@@ -44,6 +44,10 @@
 		color: #e6e6e6;
 		background-color: #252525;
 	}
+	.caution{
+		font-size: 15px;
+		color: #fd6666;
+	}
 	.block4{
 		padding: 15px;
 		font-size: 20px;
