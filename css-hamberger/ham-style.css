@@ -1,0 +1,89 @@
+/* チェックボックスは非表示に */
+.ham-hidden {
+  display: none;
+}
+
+/* ハンバーガーアイコンの設置スペース */
+.ham-open {
+  display: flex;
+  height: 60px;
+  width: 60px;
+  right:10px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 100;/* 重なり順を一番上に */
+  cursor: pointer;/*カーソル設定*/
+}
+
+/* ハンバーガーメニューのアイコン */
+.ham-open span,
+.ham-open span:before,
+.ham-open span:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 30px;
+  border-radius: 3px;
+  background: #fff;
+  transition: 0.5s;
+  position: absolute;
+}
+
+/* 三本線のうち一番上の棒の位置調整 */
+.ham-open span:before {
+  bottom: 8px;
+}
+
+/* 三本線のうち一番下の棒の位置調整 */
+.ham-open span:after {
+  top: 8px;
+}
+
+/* アイコンがクリックされたら真ん中の線を透明にする */
+#ham-check:checked ~ .ham-open span {
+  background: rgba(255, 255, 255, 0);
+}
+
+/* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+#ham-check:checked ~ .ham-open span::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+#ham-check:checked ~ .ham-open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+/* メニューのデザイン*/
+.ham-content {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;/* メニューを画面の外に飛ばす */
+  z-index: 99;
+  background: #fff;
+  transition: .5s;
+}
+.ham-content ul{
+	list-style:none;
+}
+.ham-content ul li{
+	font-size: 25px;
+	padding: 1.0em;
+	border-bottom: 1px solid #000; /*区切り線*/
+}
+.ham-content ul li a{
+	text-decoration: none;
+}
+.ham-list{
+	padding: 10px;
+	text-align: center;
+}
+
+#ham-check:checked ~ .ham-content {
+  opacity: 100%; /* メニューを画面に入れる。透明度変化　*/
+}
