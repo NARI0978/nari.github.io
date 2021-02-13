@@ -25,7 +25,7 @@
   height: 2px;
   width: 30px;
   border-radius: 3px;
-  background: #fff;
+  background: #444;
   transition: 0.5s;
   position: absolute;
 }
@@ -65,7 +65,7 @@
   left: 0;
   opacity: 0;/* メニューを画面の外に飛ばす */
   z-index: 99;
-  background: #fff;
+  background: #eee;
   transition: .5s;
 }
 .ham-content ul{
