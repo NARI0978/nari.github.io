@@ -62,8 +62,9 @@
   height: 100%;
   position: fixed;
   top: 0;
-  left: 0;
-  opacity: 0;/* メニューを画面の外に飛ばす */
+  bottom: 0;
+  right: 100%;
+  opacity: 0%;
   z-index: 99;
   background: #eee;
   transition: .5s;
@@ -85,5 +86,7 @@
 }
 
 #ham-check:checked ~ .ham-content {
-  opacity: 100%; /* メニューを画面に入れる。透明度変化　*/
+  left: 0;
+  opacity: 1;
+   /* メニューを画面に入れる。透明度変化　*/
 }
