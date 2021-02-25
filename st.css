@@ -121,3 +121,18 @@ margin-bottom: 15px;
 	margin-bottom: 20px;
 	box-shadow: inset 0 10px 10px 0 rgba(0, 0, 0, .2);
 }
+    @media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+        .title{
+            font-size: 35px;
+            padding: 30px;
+        }
+        .block1{
+            font-size: 20px;
+        }
+        .block2{
+            font-size: 25px;
+        }
+        .news .newstitle{
+            font-size: 20px;
+        }
+}
