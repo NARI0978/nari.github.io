@@ -143,3 +143,14 @@
 	.cp_cssslider input[name='cp_switch']:checked + label + img {
 	opacity: 1;
 	}
+	@media screen and (max-width: 485px) { /*ウィンドウ幅が最大485pxまでの場合に適用*/
+		 .title{
+				 font-size: 28px;
+				 padding: 25px;
+		 }
+		 .block1{
+				 font-size: 20px;
+		 }
+		 .block2{
+				 font-size: 20px;
+		 }
