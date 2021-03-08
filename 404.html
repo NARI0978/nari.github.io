@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
 	<head>
+		<style type="text/css">
+		body{
+				background-color: #202020;/*背景色rgb=2,2,2*/
+				color: #dfdfdf;/*文字色*/
+				font-family: "MS PGothic", "Osaka", Arial, sans-serif;/*個人的に好きなプログラムが見やいフォント*/
+				margin: 0;/*外の隙間無くす*/
+				overflow-x: hidden;/*スクロール時のずれ防止(はみ出したやつが消える)*/
+				width: 100%;
+				font-size: 30px;
+		}
+		.nf{
+			text-align: center;
+		}
+		.btn1{
+		display: inline-block;
+		padding: 0.5em 1em;
+		text-decoration: none;
+		background: #404040;/*ボタン色*/
+		color: #FFF;
+		border-bottom: solid 4px #2e2e2e;
+		border-radius: 3px;
+	}
+	.btn1:active {
+		transform: translateY(4px);/*下に動く*/
+		border-bottom: none;/*線を消す*/
+	}
+		</style>
 		<meta charset="utf-8">
-                <meta name="viewport" content="width=device-width,initial-scale=1.0">
-				<link rel="stylesheet" type="text/css" href="notfound/st.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
 				<link rel="shortcut icon" href="sozai/icon.png">
 				<title>Page Not Found</title>
 	</head>
 	<body>
-		<div align=center>
-		Page Not Found(適当)<br>
+		<div class="nf">
+		<p>Page Not Found(適当)</p>
 	<a href="../index.html" class="btn1">HomePageに戻る</a>
 </div>
 	</body>
