@@ -31,6 +31,11 @@
 		color: #e6e6e6;
 		background-color: #252525;
 	}
+	img[src$="../photo/download/ISBE_logo.jpg"],img[src$="../photo/download/1g_logo.jpg"]{
+		width:26%;
+		align-items: center;
+	}
+
 
 	.block10{
 		padding: 15px;
@@ -67,3 +72,22 @@
 	.btn:hover{
 		background-image: linear-gradient( 45deg, #6795fd, #51d3f9);
 	}
+
+	@media screen and (max-width: 485px) { /*ウィンドウ幅が最大485pxまでの場合に適用*/
+		 .title{
+				 font-size: 35px;
+				 padding: 25px;
+		 }
+		 .block1{
+				 font-size: 20px;
+		 }
+		 .block2,.block3,.block4,.block5,.block6{
+	 		font-size: 20px;
+			padding: 25px;
+	 	}
+		img[src$="../photo/download/ISBE_logo.jpg"],img[src$="../photo/download/1g_logo.jpg"]{
+			width:60%;
+		}
+		img[src$="../photo/download/isbe.jpg"],img[src$="../photo/download/1g.jpg"],img[src$="../photo/download/gst.jpg"],img[src$="../photo/download/cmr.jpg"],img[src$="../photo/download/cmr.jpg"],img[src$="../photo/download/nxr.jpg"]{
+			width:90%;
+		}
