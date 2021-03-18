@@ -5,6 +5,7 @@
                 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 				<link rel="stylesheet" type="text/css" href="ham-style.css">
 				<link rel="stylesheet" type="text/css" href="style.css">
+				<link rel="stylesheet" type="text/css" href="details.css">
 				<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 				<title>NARI Home Page</title>
 	</head>
@@ -14,11 +15,20 @@
     <input type="checkbox" id="ham-check" class="ham-hidden" ><!--表示・非表示コントロールチェックボックス-->
     <label for="ham-check" class="ham-open"><span></span></label><!--ハンバーガーアイコン設定。forで上の"ham-check"との関連付け-->
     <nav class="ham-content"><!--メニュー。自由に追加可能-->
+			<details>
+	 <summary>メニュー</summary>
       <ul class="ham-list">
-        <li class="ham-item"><a href="../index.html">戻る</a></li>
+        <li class="ham-item"><a href="jikosyokai/syoukai.html">自己紹介</a>
+				<li class="ham-item"><a href="isbe/isbe.html">Impressive Shadow Shader</a>
+				<li class="ham-item"><a href="1g/1g.html">ESBE-1G</a>
+				<li class="ham-item"><a href="download/download.html">ダウンロード</a>
+				<li class="ham-item"><a href="pixelart/index.html">ドット絵管理所</a>
+				<li class="ham-item"><a href="contact/contact.html">Contact</a>
+				<li class="ham-item"><a href="css-hamburger/index.html">Test hamburger</a></li>
         <li class="ham-item"><a href="#menu">Menuへ</a></li>
         <li class="ham-item"><a href="#copy">copyrightへ</a></li>
       </ul>
+			</details>
     </nav>
   </div>
 
