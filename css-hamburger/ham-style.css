@@ -6,7 +6,7 @@
 /* ハンバーガーアイコンの設置スペース */
 .ham-open {
   display: flex;
-  height: 60px;
+  height: 80px;
   width: 60px;
   right:8px;
   justify-content: center;
@@ -64,10 +64,10 @@
   top: 0;
   bottom: 0;
   right: 100%;
-  opacity: 0%;
   z-index: 99;
   background: #000;
   transition: .5s;
+  overflow-y: auto;
 }
 .ham-content ul{
 	list-style:none;

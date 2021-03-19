@@ -5,6 +5,8 @@ details {
 		color: #fff;
     text-align: center;
     font-size: 25px;
+    overflow-y: auto;
+    margin: 10px;
 }
 
 summary {
