@@ -70,6 +70,12 @@ url("photo/toppage/mainhead.jpg");
 	color: #333333;
 }
 
+.twitter{
+	padding: 12px;
+	text-align: center;
+}
+
+
 .copyright{
 	padding: 15px;
 	font-size: 20px;
