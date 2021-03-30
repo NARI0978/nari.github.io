@@ -74,14 +74,13 @@
 }
 .ham-content ul li{
 	font-size: 25px;
-	padding: 1.0em;
-	border-bottom: 1px solid #fff; /*区切り線*/
+	padding: 10px;
+	border-top: 1px solid #fff; /*区切り線*/
 }
 .ham-content ul li a{
 	text-decoration: none;
 }
 .ham-list{
-	padding: 10px;
 	text-align: center;
 }
 
