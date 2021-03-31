@@ -25,7 +25,7 @@
   height: 2px;
   width: 30px;
   border-radius: 3px;
-  background: #eee; /*線の色*/
+  background: #000; /*線の色*/
   transition: .5s;
   position: absolute;
 }
@@ -65,7 +65,7 @@
   bottom: 0;
   right: 100%;
   z-index: 99;
-  background: #000;
+  background: #e6edf2;
   transition: .5s;
   overflow-y: auto;
 }
@@ -75,7 +75,7 @@
 .ham-content ul li{
 	font-size: 25px;
 	padding: 10px;
-	border-top: 1px solid #fff; /*　区切り線　上*/
+	border-top: 1px solid #000; /*　区切り線　上*/
 }
 .ham-content ul li a{
 	text-decoration: none;
@@ -88,4 +88,18 @@
 #ham-check:checked ~ .ham-content {
   left: 0;
   opacity: 1;
+}
+
+@media(prefers-color-scheme: dark) {
+  .ham-open span,
+  .ham-open span:before,
+  .ham-open span:after {
+    background: #eee;
+  }
+  .ham-content{
+    background: #000;
+  }
+  .ham-content ul li{
+    border-top: 1px solid #fff;
+  }
 }

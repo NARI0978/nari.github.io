@@ -1,5 +1,5 @@
 details {
-    border: 1px solid #aaa;
+    border: 1px solid #000;
     border-radius: 5px;
     padding: 5px;
 		color: #fff;
@@ -10,6 +10,16 @@ details {
 }
 
 summary {
+    color: #000;
     font-weight: bold;
     padding: 2px;
 }
+
+@media(prefers-color-scheme: dark) {
+  details {
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  summary {
+    color: #fff;
+  }
