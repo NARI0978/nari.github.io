@@ -28,7 +28,7 @@ body{
 }
 .block2{
 	padding: 15px;
-	font-size: 20px;
+	font-size: 30px;
 	text-align: center;
 	color: #333;
 }
@@ -58,7 +58,6 @@ a:active{
 	color: #666666;
 	text-decoration: none;
 }
-
 /*light mode*/
 
 /*dark mode*/
@@ -92,7 +91,7 @@ a:active{
 	}
 	.block2{
 		padding: 15px;
-		font-size: 20px;
+		font-size: 30px;
 		text-align: center;
 		color: #e6e6e6;
 		background-color: #252525;
@@ -131,12 +130,9 @@ a:active{
 				padding: 30px;
 		}
 		.block1{
-				font-size: 20px;
+				font-size: 18px;
 		}
 		.block2{
-				font-size: 15px;
-		}
-		.news .newstitle{
 				font-size: 20px;
 		}
 }
